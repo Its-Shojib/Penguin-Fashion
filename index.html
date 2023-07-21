@@ -1,25 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        .font-bebas {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        .font-roboto{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
 </head>
+
 <body>
-    <header>
-        <div>
+    <header class="bg-amber-100 px-32 py-4 md:py-16 font-bebas">
+        <nav>
+
+        </nav>
+        <div class="flex flex-col md:flex-row justify-around items-center">
+            <div class="space-y-3">
+                <h1 class="text-7xl uppercase">
+                    <span class="text-[#FABE4C]">Be The Penguins</span>
+                    <br>
+                    of Winter
+                </h1>
+                <p>Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry.
+                </p>
+                <button
+                    class="py-4 px-8 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium"><i
+                        class="fa-solid fa-cart-shopping" style="color: #eceff3;"></i> Buy Now</button>
+            </div>
             <div>
-                <h1 class="text-7xl">Be The Penguins of Winter</h1>
+                <img src="./images/model.png" alt="">
             </div>
         </div>
-
     </header>
-    <main>
+    <main class="max-w-6xl mx-auto">
+        <section class="py-12">
+            <h3 class="font-bebas text-5xl">W0Man Jacket</h3>
+            <div class="font-roboto grid grid-col-1 p-4 md:grid-col-2 lg:grid-cols-3 gap-8">
+                <div class="space-y-3 drop-shadow-lg"> 
+                    <div class="bg-[#F1F1F1] p-5 rounded-2xl">
+                        <img src="./images/jacket-1.png" alt="">
+                    </div>
+                    <h4 class="text-2xl font-bold">Yellow Coat Jacket </h4>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between">
+                        <h3 class="text-4xl font-black text-orange-400">$234</h3>
+                        <button
+                        class="py-4 px-8 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium">
+                        <i class="fa-solid fa-cart-shopping" style="color: #eceff3;"></i> Buy Now</button>
+                    </div>
+                </div>
+                <div class="space-y-3 drop-shadow-lg"> 
+                    <div class="bg-[#F1F1F1] p-5 rounded-2xl">
+                        <img src="./images/jacket-2.png" alt="">
+                    </div>
+                    <h4 class="text-2xl font-bold">Ladies Jacket </h4>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between">
+                        <h3 class="text-4xl font-black text-orange-400">$234</h3>
+                        <button
+                        class="py-4 px-8 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium">
+                        <i class="fa-solid fa-cart-shopping" style="color: #eceff3;"></i> Buy Now</button>
+                    </div>
+                </div>
+                <div class="space-y-3 drop-shadow-lg"> 
+                    <div class="bg-[#F1F1F1] p-5 rounded-2xl">
+                        <img src="./images/jacket-3.png" alt="">
+                    </div>
+                    <h4 class="text-2xl font-bold">Woman Leather Jacket </h4>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between">
+                        <h3 class="text-4xl font-black text-orange-400">$234</h3>
+                        <button
+                        class="py-4 px-8 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium">
+                        <i class="fa-solid fa-cart-shopping" style="color: #eceff3;"></i> Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-12">
+            <h3 class="font-bebas text-5xl">Man Jacket</h3>
+            <div class="font-roboto grid grid-col-1 p-4 md:grid-col-2 lg:grid-cols-3 gap-8">
+                <div class="space-y-3 drop-shadow-lg"> 
+                    <div class="bg-[#F1F1F1] p-5 rounded-2xl">
+                        <img src="./images/jacket-4.png" alt="">
+                    </div>
+                    <h4 class="text-2xl font-bold">Snowboard Jacket Mens</h4>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between">
+                        <h3 class="text-4xl font-black text-orange-400">$234</h3>
+                        <button
+                        class="py-4 px-8 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium">
+                        <i class="fa-solid fa-cart-shopping" style="color: #eceff3;"></i> Buy Now</button>
+                    </div>
+                </div>
+                <div class="space-y-3 drop-shadow-lg"> 
+                    <div class="bg-[#F1F1F1] p-5 rounded-2xl">
+                        <img src="./images/jacket-5.png" alt="">
+                    </div>
+                    <h4 class="text-2xl font-bold">Man Leather Jackets</h4>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between">
+                        <h3 class="text-4xl font-black text-orange-400">$234</h3>
+                        <button
+                        class="py-4 px-8 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium">
+                        <i class="fa-solid fa-cart-shopping" style="color: #eceff3;"></i> Buy Now</button>
+                    </div>
+                </div>
+                <div class="space-y-3 drop-shadow-lg"> 
+                    <div class="bg-[#F1F1F1] p-5 rounded-2xl">
+                        <img src="./images/jacket-6.png" alt="">
+                    </div>
+                    <h4 class="text-2xl font-bold">Man Casual Jackets</h4>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between">
+                        <h3 class="text-4xl font-black text-orange-400">$234</h3>
+                        <button
+                        class="py-4 px-8 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium">
+                        <i class="fa-solid fa-cart-shopping" style="color: #eceff3;"></i> Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
